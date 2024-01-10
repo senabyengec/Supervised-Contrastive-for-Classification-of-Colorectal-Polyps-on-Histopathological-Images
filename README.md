@@ -9,6 +9,8 @@ The proposed model enhances the standard Sup-Con framework with several architec
 ### Optimization and Loss Function
 For optimization, we employ Stochastic Gradient Descent (SGD), carefully calibrated with an optimal learning rate and momentum. The model's robustness and accuracy are further boosted by our choice of loss function: categorical cross-entropy with label smoothing. This choice not only enhances prediction accuracy but also improves the model's adaptability in various scenarios.
 
+**Author of the code: Sena Yengec-Tasdemir**
+
 ## Requirements
 *   The dataset need to be uploaded to Google Drive folder. The following paths need to be updated accordingly.
 *   Wandb is used for plots. One needs to either have a Wandb account or remove those lines of code.
